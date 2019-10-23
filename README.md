@@ -11,7 +11,7 @@ https://www.youtube.com/watch?v=oUzBF299iUo
 https://www.youtube.com/watch?v=pbbcMcrQoXw  
 
 — Как VK использует ClickHouse (логи / статистика).  
-— Производительность ClickHouse в наших условиях, конфигурация кластеров.  
+— Производительность ClickHouse в условиях VK, конфигурация кластеров.  
 — Буфер-таблицы.  
 — Проблемы в эксплуатации.  
 — kittenhouse: локальный прокси для ClickHouse.  
