@@ -1,5 +1,22 @@
 ## KittenHouse
 
+Original Repositroy VK.COM  
+local proxy between ClickHouse and your application server   
+https://github.com/VKCOM/kittenhouse  
+
+[HighLoad++ Siberia 2018] Как VK вставляет данные в ClickHouse с десятков тысяч серверов / Юрий Насретдинов (ВКонтакте)  
+https://www.youtube.com/watch?v=oUzBF299iUo  
+
+[HighLoad++ Moscow 2018] Как VK вставляет данные в ClickHouse с десятков тысяч серверов / Юрий Насретдинов (ВКонтакте)  
+https://www.youtube.com/watch?v=pbbcMcrQoXw  
+
+— Как VK использует ClickHouse (логи / статистика).  
+— Производительность ClickHouse в наших условиях, конфигурация кластеров.  
+— Буфер-таблицы.  
+— Проблемы в эксплуатации.  
+— kittenhouse: локальный прокси для ClickHouse.  
+— LightHouse: легкий веб-интерфейс для просмотра содержимого таблиц.  
+
 KittenHouse is designed to be a local proxy between ClickHouse and your application server in case you are unable or unwilling to buffer INSERT data on your application side. This is the case for PHP, for example.
 
 KittenHouse is meant to be installed on each host of the cluster that needs to interact with ClickHouse and features in-memory data buffering, on-disk data buffering with retries support, per-table routing, load-balancing, health checking, etc.
